@@ -1,0 +1,44 @@
+.navbar {
+    height: auto;
+    color: white;
+    font-family: 'American Typerwriter', monospace;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.desktopMenuListItem {
+    list-style: none;
+    display: inline-block;
+    border-top: 10px solid transparent;
+    margin: 0 110px;
+    font-size: 1.4rem;
+    color: white;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    font-weight: bold;
+}
+
+.desktopMenuListItem.intro.active:not {
+    text-decoration: underline;
+    font-size: 1.4rem; /* Set font size for active non-intro tabs */
+}
+.desktopMenuListItem:hover {
+    text-decoration: underline;
+    font-size: 1.7rem;
+    transition: all 0.4s ease;
+}
+
+.desktopMenuListItem.intro {
+    font-size: 1.5rem; /* Increase font size for the intro tab */
+    text-decoration: underline; /* Underline the intro tab by default */
+}
+
+.desktopMenuListItem.active {
+    text-decoration: underline;
+    font-size: 1.7rem;
+}
+
+html {
+    scroll-behavior: smooth;
+}
