@@ -13,7 +13,7 @@ const Education = () => {
       <div className="educationcontent">
         <div className="education">
           <div className="resume">
-            <a href="https://drive.google.com/file/d/1ws2aW1hGHCr_f-LJHETir0laDuXrDtFR/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="resume-link">View My CV</a>
+            <a href="https://drive.google.com/file/d/1gPEKWoeS9_2N0-jlADMeWDXFuOwGj7Ma/view" target="_blank" rel="noopener noreferrer" className="resume-link">View My CV</a>
             <br />
           </div>
           <br />
