@@ -7,7 +7,7 @@ import Education from "./Components/Education/education";
 import FadeInOutView from './FadeInOutView';
 import './App.css';
 
-// Canvas setup for this
+// Canvas setup for this.
 const canvas = document.createElement('canvas');
 const ctx = canvas.getContext('2d');
 canvas.width = window.innerWidth;
